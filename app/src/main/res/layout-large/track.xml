@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="trackPicked"
+    android:padding="5dp"
+    android:background="@color/background_list">
+
+
+    <ImageView
+        android:id="@+id/track_state_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_track_idle"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/track_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/track_state_icon"
+        android:text="TRACK TITLE"
+        android:textColor="#EEEEEE"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/track_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/track_title"
+        android:layout_toRightOf="@id/track_state_icon"
+        android:text="Artist: "
+        android:textColor="#EEEEEE"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/track_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/track_artist"
+        android:layout_toRightOf="@id/track_state_icon"
+        android:text="Album: "
+        android:textColor="#EEEEEE"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/track_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/track_title"
+        android:text="00:00"
+        android:textColor="#EEEEEE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/background_list"/>
+
+</RelativeLayout>
+
+
+
+
+

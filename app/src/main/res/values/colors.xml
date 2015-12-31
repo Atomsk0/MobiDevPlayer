@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_list">#616161</color>
+    <color name="text">#EEEEEE</color>
+    <color name="background_panel">#ff424242</color>
+    <color name="text_panel">#FF9100</color>
+</resources>
